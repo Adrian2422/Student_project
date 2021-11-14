@@ -1,0 +1,116 @@
+@import "colors";
+@import "fonts";
+@import "consts";
+
+* {
+  font-family: "Sora Regular", sans-serif;
+}
+
+.body {
+  background-color: $eerie-black;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+}
+
+.navbar {
+  height: $navbar-height;
+}
+
+.main {
+  height: fit-content;
+  //padding-top: $navbar-height;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: $ruby-red;
+
+  &__copyrights {
+    color: $cultured;
+    height: fit-content;
+    margin: 0;
+  }
+}
+
+.navbar__background--dark {
+  width: 100%;
+  background-color: $ruby-red;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    position: relative;
+    width: fit-content;
+  }
+
+  &__title {
+    font-size: 8vw;
+    color: $cultured;
+  }
+
+  &__caption {
+    font-size: 1.5rem;
+    color: $light-gray;
+  }
+}
+
+.chart {
+  height: fit-content;
+  min-height: 100vh;
+  padding: 0 64px;
+  background-color: $cultured;
+
+  &__item {
+
+    &--html {
+      background-color: $html-brand;
+    }
+
+    &--css{
+      background-color: $css-brand;
+    }
+
+    &--js {
+      background-color: $js-brand;
+    }
+
+    &--php {
+      background-color: $php-brand;
+    }
+
+    &--sass {
+      background-color: $sass-brand;
+    }
+
+    &--image-background {
+      height: 100%;
+      width: 100%;
+      background-color: $cultured;
+    }
+
+    &--button {
+      background-color: $ruby-red;
+    }
+  }
+}

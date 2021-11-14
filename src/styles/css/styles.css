@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Sora Regular";
+  src: url("../../assets/fonts/Sora-Regular.ttf");
+}
+* {
+  font-family: "Sora Regular", sans-serif;
+}
+
+.body {
+  background-color: #161a1dff;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.main {
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #a4161aff;
+}
+.footer__copyrights {
+  color: #f5f3f4ff;
+  height: fit-content;
+  margin: 0;
+}
+
+.navbar__background--dark {
+  width: 100%;
+  background-color: #a4161aff;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__container {
+  position: relative;
+  width: fit-content;
+}
+.hero__title {
+  font-size: 8vw;
+  color: #f5f3f4ff;
+}
+.hero__caption {
+  font-size: 1.5rem;
+  color: #d3d3d3ff;
+}
+
+.chart {
+  height: fit-content;
+  min-height: 100vh;
+  padding: 0 64px;
+  background-color: #f5f3f4ff;
+}
+.chart__item--html {
+  background-color: #ff9827ff;
+}
+.chart__item--css {
+  background-color: #3c99dcff;
+}
+.chart__item--js {
+  background-color: #f0db4fff;
+}
+.chart__item--php {
+  background-color: #787cb5ff;
+}
+.chart__item--sass {
+  background-color: #cd6799ff;
+}
+.chart__item--image-background {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f3f4ff;
+}
+.chart__item--button {
+  background-color: #a4161aff;
+}
+
+/*# sourceMappingURL=styles.css.map */
