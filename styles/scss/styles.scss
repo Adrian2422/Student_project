@@ -1,0 +1,40 @@
+@import "colors";
+
+.body {
+  background-color: $eerie-black;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+}
+
+.main {
+  height: fit-content;
+  padding-top: 56px;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  height: 100px;
+  background-color: $ruby-red;
+}
+
+.navbar__background--dark {
+  width: 100%;
+  background-color: $ruby-red;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+}
