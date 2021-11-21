@@ -23,7 +23,7 @@
 }
 
 .navbar {
-  height: 80px;
+  min-height: 80px;
 }
 
 .main {
@@ -68,6 +68,26 @@
 .hero__caption {
   font-size: 1.5rem;
   color: #d3d3d3ff;
+}
+
+.web-info {
+  height: fit-content;
+  min-height: 100vh;
+  padding: 0 64px;
+  background: url(../../assets/images/code_bg.jpg) no-repeat top fixed;
+  background-size: cover;
+  color: #f5f3f4ff;
+}
+.web-info__container {
+  padding-top: 64px;
+  width: 70vw;
+  margin: auto;
+}
+.web-info__title {
+  padding-bottom: 48px;
+}
+.web-info__text {
+  font-size: 21px;
 }
 
 .chart {

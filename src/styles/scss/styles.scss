@@ -23,7 +23,7 @@
 }
 
 .navbar {
-  height: $navbar-height;
+  min-height: $navbar-height;
 }
 
 .main {
@@ -72,6 +72,29 @@
   &__caption {
     font-size: 1.5rem;
     color: $light-gray;
+  }
+}
+
+.web-info {
+  height: fit-content;
+  min-height: 100vh;
+  padding: 0 $spacing-x-lg;
+  background: url(../../assets/images/code_bg.jpg) no-repeat top fixed;
+  background-size: cover;
+  color: $cultured;
+
+  &__container {
+    padding-top: $spacing-x-lg;
+    width: 70vw;
+    margin: auto;
+  }
+
+  &__title {
+    padding-bottom: $spacing-lg;
+  }
+
+  &__text {
+    font-size: $body-text-size;
   }
 }
 
